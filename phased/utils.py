@@ -2,7 +2,7 @@ import re
 import base64
 from django.conf import settings
 from django.http import HttpRequest
-from django.template import (Parser, Lexer, Token, TOKEN_TEXT,
+from django.template.base import (Parser, Lexer, Token, TOKEN_TEXT,
     COMMENT_TAG_START, COMMENT_TAG_END, TemplateSyntaxError)
 from django.template.context import BaseContext, RequestContext, Context
 from django.utils.cache import cc_delim_re

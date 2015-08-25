@@ -1,5 +1,5 @@
 from django.conf import settings
-from django.template import (Library, Node, Variable,
+from django.template.base import (Library, Node, Variable,
     TOKEN_BLOCK, TOKEN_COMMENT, TOKEN_TEXT, TOKEN_VAR,
     TemplateSyntaxError, VariableDoesNotExist, Context)
 from django.utils.encoding import smart_str
